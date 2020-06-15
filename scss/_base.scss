@@ -1,0 +1,32 @@
+a{
+    text-decoration: none;
+    display: block;
+    color: inherit;
+}
+/* img RWD */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+span{
+    vertical-align: bottom;
+}
+
+.material-icons {
+    cursor: pointer;
+}
+
+select, textarea {
+    outline: none;
+    border: none;
+    resize: none;
+}
+.disc{
+    list-style-type: disc;
+}
+
+.bold{
+    font-weight: bold;
+}

@@ -1,0 +1,315 @@
+a {
+  text-decoration: none;
+  display: block;
+  color: inherit;
+}
+
+/* img RWD */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+span {
+  vertical-align: bottom;
+}
+
+.material-icons {
+  cursor: pointer;
+}
+
+select, textarea {
+  outline: none;
+  border: none;
+  resize: none;
+}
+
+.disc {
+  list-style-type: disc;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+body {
+  font-family: Lato;
+  font-weight: bold;
+}
+
+.wrap {
+  height: 100vh;
+}
+
+header {
+  width: 23%;
+}
+
+.menu {
+  padding: 32px 0;
+  background-color: #EDF4EE;
+}
+
+.menu h1 {
+  font-size: 0;
+  margin-bottom: 32px;
+}
+
+.menu li {
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 29px;
+}
+
+.menu li span {
+  margin-right: 16px;
+}
+
+.menu .pageNow {
+  color: #2A8356;
+  border-left: 4px solid #2A8356;
+}
+
+.menu .setting {
+  margin-bottom: 362px;
+}
+
+.menuItems, .user {
+  margin-left: 32px;
+}
+
+.user img {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  margin-right: 16px;
+}
+
+.user p {
+  font-size: 14px;
+  margin-top: 4px;
+  margin-bottom: 0;
+  color: #0000009A;
+}
+
+.main {
+  width: 77%;
+  padding: 32px;
+}
+
+.rightareaTop {
+  margin-bottom: 32px;
+}
+
+.title li:first-child {
+  margin-right: 46px;
+  font-size: 24px;
+}
+
+.mr-26 {
+  margin-right: 26px;
+}
+
+.content {
+  font-weight: lighter;
+}
+
+.allComments {
+  width: 34%;
+  margin-right: 16px;
+}
+
+.all {
+  margin-bottom: 6px;
+}
+
+.allList {
+  font-size: 12px;
+}
+
+.allList li:first-child {
+  background-color: #EDF4EE;
+  border-top: 1px solid #CDDDCD;
+}
+
+.allList li {
+  padding: 12px;
+  border: 1px solid #CDDDCD;
+  border-top: none;
+}
+
+.allList li p:first-child {
+  margin-bottom: 4px;
+  line-height: 15px;
+}
+
+.allList li p {
+  margin-bottom: 0;
+  line-height: 19px;
+}
+
+.gray-text {
+  color: #0000009A;
+}
+
+.allsTitle {
+  font-size: 16px;
+}
+
+.comments {
+  width: 66%;
+}
+
+.littleComments {
+  font-size: 12px;
+  line-height: 24px;
+  margin-bottom: 6px;
+  text-align: right;
+}
+
+.commentsTitle {
+  font-size: 12px;
+  padding: 12px 17px 12px 16px;
+  background-color: #EDF4EE;
+  border: 1px solid #CDDDCD;
+}
+
+.commentsTitle p {
+  margin-bottom: 0;
+  line-height: 19px;
+}
+
+.commentsTitle p:first-child {
+  margin-bottom: 4px;
+  line-height: 15px;
+}
+
+.commentsItems {
+  padding: 16px 32px 22px 16px;
+  border: 1px solid #CDDDCD;
+  border-top: none;
+}
+
+.commentsItems img {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  margin-right: 8px;
+}
+
+.commentsItems h6 {
+  margin-bottom: 0;
+}
+
+.commentsItems .name {
+  margin-bottom: 16px;
+}
+
+.commentsItems .itemContent {
+  margin-left: 48px;
+  margin-bottom: 16.5px;
+  border-bottom: 1px solid #CDDDCD;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.commentsItems .itemContent a {
+  margin-bottom: 16.5px;
+}
+
+.commentsItems .itemContent:last-child {
+  border-bottom: none;
+}
+
+.itemContent p span, .itemContent .disc span {
+  display: inline-block;
+  background-color: #EDF4EE;
+  color: #2a8356;
+  font-weight: 500;
+  padding: 0 4px;
+}
+
+.small-text {
+  font-size: 12px;
+  line-height: 24px;
+  margin-bottom: 0;
+}
+
+.mr23 {
+  margin-right: 23px;
+}
+
+.commentsFooter ul {
+  margin-bottom: 0;
+}
+
+.commentsFooter button, .bodyText button {
+  padding: 8px 32px;
+}
+
+.bodyText {
+  width: 100%;
+  border: 1px solid #CDDDCD;
+  background-color: white;
+  padding-bottom: 32px;
+  top: -700%;
+  display: none;
+}
+
+.bodyTextHeader {
+  height: 56px;
+  padding-left: 25px;
+  border-bottom: 1px solid #CDDDCD;
+}
+
+.bodyTextHeader, select {
+  background-color: #EDF4EE;
+  font-weight: bold;
+}
+
+.bodyText textarea {
+  width: 100%;
+  height: 212px;
+  padding-left: 25px;
+  padding-top: 16px;
+}
+
+.table {
+  margin-bottom: 63px;
+}
+
+.table thead th {
+  padding: 16px 12px 4px 12px;
+  border-top: none;
+  border-bottom: 1px solid #000;
+}
+
+.table tbody td, .table tbody th {
+  border-color: #CDDDCD;
+  padding: 16px 12px 14px 12px;
+}
+
+.table tbody td:last-child {
+  padding: 16px 0 14px 0;
+  width: 78px;
+}
+
+.table tbody tr:last-child th, .table tbody tr:last-child td {
+  border-bottom: 1px solid #CDDDCD;
+}
+
+.pagination {
+  margin-bottom: 0;
+}
+
+.pagination .page-link {
+  color: #2A8356;
+  border-color: #2A8356;
+}
+
+.pagination .page-link:hover {
+  background-color: #2A8356;
+  color: white;
+}
+/*# sourceMappingURL=all.css.map */
